@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e40ef634fdc5a5545da2ea299be10df {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9e40ef634fdc5a5545da2ea299be10df" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9e40ef634fdc5a5545da2ea299be10df = L.map(
+                "map_9e40ef634fdc5a5545da2ea299be10df",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cbce665621c17def9f638936503955ef = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9e40ef634fdc5a5545da2ea299be10df);
+        
+    
+            var marker_8b4a4759d7b0e1a4904b2dda47a3dba2 = L.marker(
+                [37.42301, -122.083352],
+                {}
+            ).addTo(map_9e40ef634fdc5a5545da2ea299be10df);
+        
+    
+            marker_8b4a4759d7b0e1a4904b2dda47a3dba2.bindTooltip(
+                `<div>
+                     8.8.8.8: Mountain View, California, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af0d8ef2bd3ab90105563b9f9893c73a = L.marker(
+                [26.3594, -80.0771],
+                {}
+            ).addTo(map_9e40ef634fdc5a5545da2ea299be10df);
+        
+    
+            marker_af0d8ef2bd3ab90105563b9f9893c73a.bindTooltip(
+                `<div>
+                     157.240.14.35: Boca Raton, Florida, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e4cc96c838e2371d2b1f09d452532e8 = L.marker(
+                [37.8021, -122.433],
+                {}
+            ).addTo(map_9e40ef634fdc5a5545da2ea299be10df);
+        
+    
+            marker_7e4cc96c838e2371d2b1f09d452532e8.bindTooltip(
+                `<div>
+                     185.199.111.153: San Francisco, California, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e06547fbf7fed90c533ee5c82041b2c2 = L.marker(
+                [45.849868, -119.632159],
+                {}
+            ).addTo(map_9e40ef634fdc5a5545da2ea299be10df);
+        
+    
+            marker_e06547fbf7fed90c533ee5c82041b2c2.bindTooltip(
+                `<div>
+                     54.186.250.79: Boardman, Oregon, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
