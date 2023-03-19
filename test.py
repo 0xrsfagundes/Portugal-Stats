@@ -1,6 +1,6 @@
 import requests
 
-url = "https://www.ine.pt/ine/json_indicador/pindica.jsp?op=2&varcd=0008073&lang=PT"
+url = "https://dados.gov.pt/s/dadosGovFiles/Crimesregistados20141993portipo.json"
 
 response = requests.get(url)
 
